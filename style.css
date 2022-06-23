@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+}
+.wrapper {
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  padding: 15px;
+  width: 50%;
+  background: black;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.jumbortron {
+  padding-top: 2rem;
+}
