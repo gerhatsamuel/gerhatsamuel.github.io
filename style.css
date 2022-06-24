@@ -24,3 +24,26 @@ h2 {
 .jumbortron {
   padding-top: 2rem;
 }
+tr {
+  color: black;
+  padding: 50px;
+}
+#nama {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-bottom: 1rem;
+}
+#score {
+  width: 30px;
+  text-align: center;
+  border: 0;
+  outline: 0;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+.tabel {
+  margin-top: 3rem;
+}

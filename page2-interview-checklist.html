@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GS Labs</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="image/GSH GSH GSH.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #152238">
+      <div class="container">
+        <a class="navbar-brand" href="index.html#home">
+          <img src="image/GSH GSH GSH.png" alt="" width="50" height="50" class="d-inline-block align-text-center" />
+          GS Labs
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
+            <a class="nav-link" href="index.html#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End of Navbar-->
+
+    <!-- Table -->
+    <section id="tabel">
+      <div class="container mt-md-5 pt-5">
+        <h2>Interview Question and Score</h2>
+        <label> Name: </label>
+        <input id="nama" type="text" />
+        <table class="table-bordered">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Category</th>
+              <th scope="col">Score (1-5)</th>
+              <th scope="col">Question Example</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td scope="row">Motivation to join</td>
+              <td style="text-align: center"><input id="score" type="text" placeholder="1-5" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row">Company Knowledge</td>
+              <td style="text-align: center"><input id="score" type="text" placeholder="1-5" /></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td scope="row">Teamwork</td>
+              <td style="text-align: center"><input id="score" type="text" placeholder="1-5" /></td>
+              <td>Kondisi kerjasama sekarang - Apa yang perlu di improve - Perbedaan pendapat</td>
+            </tr>
+            <tr>
+              <td scope="row">Problem Solving</td>
+              <td style="text-align: center"><input id="score" type="text" placeholder="1-5" /></td>
+              <td>Kondisi kompleks (ex: Failed Deadline) - Jelaskan cara solve masalah step-by-step</td>
+            </tr>
+            <tr>
+              <td scope="row">Stress & Time Management</td>
+              <td style="text-align: center"><input id="score" type="text" placeholder="1-5" /></td>
+              <td>Cara manage task yang banyak (bukan overload) - Kalau ada waktu kosong ngapain</td>
+            </tr>
+            <tr>
+              <td scope="row">Work Ethic</td>
+              <td style="text-align: center"><input id="score" type="text" placeholder="1-5" /></td>
+              <td>Hal/pekerjaan yang sangat disukai dan effort yang sudah dikeluarkan</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row mt-5" style="width: 100%">
+          <label style="font-weight: bold"> Notes: </label>
+          <textarea placeholder="Please write here" rows="5"></textarea>
+        </div>
+      </div>
+    </section>
+    <!-- End of Table -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
